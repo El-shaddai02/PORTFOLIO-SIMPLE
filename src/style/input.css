@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  /* Déclaration de l'animation pour la v4 */
+  --animate-marquee: marquee 18s linear infinite;
+
+  /* Définition des keyframes */
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+}
